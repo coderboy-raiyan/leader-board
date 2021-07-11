@@ -288,12 +288,13 @@ header nav .right-side-menu .sub-menu a {
   margin-right: 0.3rem;
   font-size: 1.5rem;
 }
-.main-courses h2 {
+.main-courses a {
   width: 23rem;
-  font-size: 1.7rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 800;
   color: #000;
   line-height: 2.7rem;
+  display: block;
   margin-top: 1rem;
   margin-bottom: 0.8rem;
 }
