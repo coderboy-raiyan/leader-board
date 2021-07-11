@@ -148,13 +148,21 @@ header nav .right-side-menu .sub-menu a {
   justify-content: center;
   align-items: center;
 }
-.player .player-1 h3 {
+.player .player-1 a li {
   font-size: 1.7rem;
   font-weight: 500;
   color: var(--text-color);
-  margin-left: 1rem;
-  width: 15rem;
+  /* margin-left: 1rem; */
+  width: 7rem;
   text-transform: capitalize;
+}
+
+.player .player-1 a:last-child {
+  width: 13rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #000;
 }
 
 /* ================Blog Div styles======================= */
@@ -166,6 +174,14 @@ header nav .right-side-menu .sub-menu a {
 
 #top-blog {
   width: 100%;
+}
+.player-des a {
+  font-size: 2rem;
+  width: 20rem;
+  margin-bottom: 0.8rem;
+  line-height: 3.4rem;
+  color: #000;
+  font-weight: 700;
 }
 
 #top-blog .player {
@@ -181,7 +197,7 @@ header nav .right-side-menu .sub-menu a {
   width: 15.3rem;
 }
 #top-blog .player .player-1 {
-  width: 46%;
+  width: 47%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,6 +212,7 @@ header nav .right-side-menu .sub-menu a {
   width: 18rem;
   font-size: 1.7rem;
   font-weight: 500;
+  margin-right: 2rem;
 }
 #top-blog .player .player-1 .player-des {
   display: flex;
@@ -205,10 +222,12 @@ header nav .right-side-menu .sub-menu a {
   height: 11rem;
 }
 #top-blog .player .player-1 h3 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   width: 19rem;
   margin-bottom: 0.8rem;
   line-height: 3.4rem;
+  color: #000;
+  font-weight: 600;
 }
 /*======================= Our Third Section styles====================
 ====================== */
