@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  --main-color: #562eff;
+  --text-color: #000;
+  --text-primary-color: #9f9f9f;
+  --body-background-color: #f3f1ff;
+  background: var(--body-background-color);
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: var(--main-color);
+}
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  color: #ed6b4f;
+}
+p,
+li,
+a,
+button,
+span {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6rem;
+}
+p {
+  color: var(--main-color);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+span {
+  font-size: 1.4rem;
+}
+
+/*=================== Header section styles===================== 
+=====================*/
+header {
+  padding: 0 25rem;
+  background: var(--main-color);
+}
+header nav {
+  width: 100%;
+  height: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ======================Left side menu styles================= */
+header nav .left-side-menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .left-side-menu .logo img {
+  width: 3.8rem;
+  height: 4.6rem;
+  margin-right: 1rem;
+}
+header nav .left-side-menu .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .left-side-menu .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+/* ======================right side menu styles================= */
+
+header nav .right-side-menu {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+header nav .right-side-menu .sub-menu {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header nav .right-side-menu .sub-menu a {
+  margin-left: 3rem;
+  color: white;
+  font-weight: 500;
+}
+/* =======================Our Secound section styles========================== 
+==========================*/
+
+.top-player {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 25rem;
+}
+.center-div {
+  background: #fff;
+  padding: 0rem 3rem;
+  width: 100%;
+  margin: auto;
+  border-radius: 1rem;
+  padding-top: 3rem;
+}
+.player {
+  width: 100%;
+  height: 19rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid #dddada;
+}
+
+.player-title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.player .player-1 img {
+  width: 5.3rem;
+}
+.player .player-1 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player .player-1 h3 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-left: 1rem;
+  width: 15rem;
+  text-transform: capitalize;
+}
+
+/* ================Blog Div styles======================= */
+
+#top-blog .player-title {
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+
+#top-blog {
+  width: 100%;
+}
+
+#top-blog .player {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: none;
+}
+
+#top-blog .player .player-1 img {
+  width: 15.3rem;
+}
+#top-blog .player .player-1 {
+  width: 46%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#top-blog .player .player-1 .player-des span {
+  font-size: 1.5rem;
+  color: #afa9a9;
+}
+#top-blog .player .player-1 .player-des p {
+  color: var(--main-color);
+  width: 18rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+#top-blog .player .player-1 .player-des {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 11rem;
+}
+#top-blog .player .player-1 h3 {
+  font-size: 1.8rem;
+  width: 19rem;
+  margin-bottom: 0.8rem;
+  line-height: 3.4rem;
+}
+/*======================= Our Third Section styles====================
+====================== */
+.latest-offer {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 25rem;
+}
+.main-courses {
+  width: 100%;
+  display: flex;
+  height: 30rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+.main-courses .course-image img {
+  width: 22rem;
+  height: 10rem;
+  /* margin: auto; */
+}
+.main-courses .ratings img {
+  width: 1.2rem;
+}
+.main-courses .ratings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-courses .ratings ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-courses .ratings ul li {
+  margin-right: 0.2rem;
+}
+.main-courses .ratings ul li:last-child {
+  margin-left: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #c6bfbf;
+}
+.main-courses .ratings ul li:nth-child(5) {
+  font-size: 1.2rem;
+  color: #f1f1f1;
+}
+.main-courses .ratings span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: tomato;
+  background: #f5e1ddd1;
+  padding: 0.6rem 0.7rem;
+  border-radius: 3rem;
+}
+.main-courses .ratings span .far {
+  margin-right: 0.3rem;
+  font-size: 1.5rem;
+}
+.main-courses h2 {
+  width: 23rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 2.7rem;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+.main-courses h3 {
+  width: 19rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.main-courses .first-course {
+  width: 30%;
+  height: 27rem;
+  padding: 1rem 1rem;
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 2px -2px 16px #ede4e4;
+}
