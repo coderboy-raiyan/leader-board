@@ -21,15 +21,15 @@
     height: auto;
   }
   .main-courses .first-course {
+    height: 100%;
     width: 30%;
-    height: auto;
   }
   .main-courses .course-image img {
     width: 100%;
     height: auto;
   }
   .main-courses a {
-    width: 100%;
+    width: 80%;
     display: block;
     font-size: 1.4rem;
   }
@@ -38,7 +38,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
   }
 }
 
@@ -91,13 +90,14 @@
     flex-direction: column;
   }
   .main-courses .first-course {
-    width: 60%;
-    height: 29rem;
+    width: 100%;
+    height: 100%;
     padding: 1rem 1rem;
     background: #fff;
     border-radius: 2rem;
     box-shadow: 2px -2px 16px #ede4e4;
     margin-bottom: 3rem;
+    display: block;
   }
   .main-courses .course-image img {
     width: 100%;
@@ -108,11 +108,11 @@
     display: block;
   }
   .main-courses .ratings {
-    width: 100;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .main-courses .ratings span {
     margin-top: 0.4rem;
